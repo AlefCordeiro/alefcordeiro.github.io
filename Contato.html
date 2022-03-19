@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - INDICAVÍDEOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+    section.form{
+        /*background-color: red;*/
+        padding: 15px;
+    }
+    div.form{
+        padding: 10px;
+        /*background-color: green;*/
+        max-width: 600px;
+        margin: auto;    
+    }
+    div.btnform{
+        /*background-color: blue;*/
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    button.btnform{
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        border-radius: 15px;
+        font-size: 15px;
+        border-style: none;
+    }
+    button.btnform:hover{
+        cursor: pointer;
+        background-color: darkorange;
+        color: #fff;
+    }
+    input{
+        padding: 10px;
+        width: 100%;
+        border-radius: 20px;
+        border-style: none;
+    }
+    input.descricao{
+        padding-bottom: 80px;
+    }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p><a class="logohome" href="index.html"><img class="logoimg" src="imagens/logo.png" alt="logo"></a></p>
+        </div>
+        <div>
+        <tr>
+            <td><a class="menu" href="index.html">Home</a></td>
+            <td><a class="menu" href="Sobre.html">Sobre</a></td>
+            <td><a class="menu" href="Contribua.html">Contribua</a></td>
+            <td><a class="menu" href="Contato.html">Contato</a></td>
+            <td><input class="buscarvideos" type="search" name="procurar" id="procurar" placeholder="Buscar vídeo"></td>
+            <td class="btnbuscar"><button class="btnbuscar">Buscar</button></td>
+        </tr>
+    </div>
+    </header>
+    <h1>Contato</h1>
+
+        <form action="#">
+            <section class="form">
+                <div class="form">
+                    <input type="email" name="email" id="email" placeholder="Insira seu e-mail">
+                </div>
+                <div class="form">
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                </div>
+                <div class="form">
+                    <input class="descricao" type="text" name="descricao" id="descricao" placeholder="Sua mensagem...">
+                </div>
+                <div class="form">
+                    <div class="btnform">
+                        <button class="btnform">Enviar</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+
+
+    
+</body>
+</html>
