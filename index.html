@@ -9,25 +9,30 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!--Início do menú do cabeçalho-->
     <header>
         <div class="logo">
             <p><a class="logohome" href="index.html"><img class="logoimg" src="imagens/logo.png" alt="logo"></a></p>
         </div>
-        <div>
-        <tr>
-            <td><a class="menu" href="#">Home</a></td>
-            <td><a class="menu" href="Sobre.html">Sobre</a></td>
-            <td><a class="menu" href="Contribua.html">Contribua</a></td>
-            <td><a class="menu" href="Contato.html">Contato</a></td>
-            <td><input class="buscarvideos" type="search" name="procurar" id="procurar" placeholder="Buscar vídeo"></td>
-            <td class="btnbuscar"><button class="btnbuscar">Buscar</button></td>
-        </tr>
-    </div>
+        <div class="menu1">
+                <div class="submenu1"><a class="menu" href="index.html">Home</a></div>
+                <div class="submenu1"><a class="menu" href="Sobre.html">Sobre</a></div>
+                <div class="submenu1"><a class="menu" href="Contribua.html">Contribua</a></div>
+                <div class="submenu1"><a class="menu" href="Contato.html">Contato</a></div>
+                <div class="submenu11">
+                    <input class="buscarvideos" type="search" name="procurar" id="procurar" placeholder="Buscar vídeo">
+                    <button class="btnbuscar">Buscar</button>
+                </div>
+        </div>
     </header>
+    <!--Fim do menú do cabeçalho-->
+    <!--Início da container de títulos-->
     <section class="title">
             <h1 class="title">Bem-vindo ao INDICAVÍDEOS</h1>
             <p class="titlep">Toda semana uma seleção de vídeos pra você curtir!</p>
     </section>
+    <!--Fim da container de títulos-->
+    <!--Início da área de indicações principal-->
     <section class="center">
             <div 
                 class="listainicial"><a class="listainicial" href="Selecaovideos/comedia.html"><img class="listainicial" src="imagens/capa de videos/comédia2.jpg" alt="comédia"></a>  
@@ -42,7 +47,8 @@
                 class="listainicial"><a class="listainicial" href="Selecaovideos/tecnologia.html"><img class="listainicial" src="imagens/capa de videos/tecnologia2.jpg" alt="tecnologia"></a>         
             </div>
     </section>
-    <!--Na section abaixo, o vídeo está incorpordo do Youtube, por isso os parâmetros de largura e altura estão direto na tag-->
+    <!--Fim da área de indicações principal-->
+    <!--Início da área de vídeo em destaque-->
     <section class="container">
         <section class="containersub1">
             <iframe class="videodestaque" src="https://www.youtube.com/embed/h5wh3uvN_QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -67,6 +73,6 @@
             </div>
         </section>
     </section>
-
+    <!--Fim da área de vídeo em destaque-->
 </body>
 </html>
